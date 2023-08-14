@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
     return (
         <div>
-            fvbf vrn irek
+            <Link to='/signup'>
+                fvbf vrn irek
+            </Link>
         </div>
     )
 }
