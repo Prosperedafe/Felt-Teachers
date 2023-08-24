@@ -1,11 +1,16 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import midi_search from '../assets/mdi_search.png';
+import '../styles/home.scss';
 
 const HomePage = () => {
     return (
-        <div>
-            <Link to='/signup'>
-                fvbf vrn irek
-            </Link>
+        <div className='search'>
+            <div>
+            <img src={midi_search}alt=""/>
+            </div>
+            <div>
+                <h6>search</h6>
+            </div>
         </div>
     )
 }
